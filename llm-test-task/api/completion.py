@@ -29,9 +29,9 @@ async def stream_openrouter_to_client(payload: dict, headers: dict, url: str):
                     try:
                         data_obj = json.loads(data)
                         if "choices" in data_obj and data_obj["choices"]:
-                            delta = data_obj["choices"][0].get("delta", {})
-                            if "content" in delta and delta["content"]:
-                                yield f"data: {json.dumps({'content': delta['content']}, ensure_ascii=False)}\n\n"
+                            text_content = data_obj["choices"][0].get("text", "")
+                            if text_content:
+                                yield f"data: {json.dumps({'content': text_content}, ensure_ascii=False)}\n\n"
                     except json.JSONDecodeError:
                         continue
 

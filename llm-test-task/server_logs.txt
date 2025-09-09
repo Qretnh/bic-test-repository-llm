@@ -5,3 +5,6 @@
 2025-09-09 09:53:24,848 - openrouter_app - ERROR - Unexpected error: 'choices'
 2025-09-09 10:03:41,574 - openrouter_app - ERROR - Unexpected error: 'choices'
 2025-09-09 10:21:35,588 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-09 11:30:20,279 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-09 13:58:17,952 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-09 14:11:23,591 - openrouter_app - ERROR - httpx.ConnectTimeout: timed out

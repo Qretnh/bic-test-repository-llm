@@ -1,0 +1,10 @@
+{
+    "total_runs": 25,
+    "successful_runs": 24,
+    "avg": 10.997393588225046,
+    "min": 2.475773572921753,
+    "max": 16.783113956451416,
+    "std_dev": 5.211172938436352,
+    "total_tokens": 9505,
+    "model": "moonshotai/kimi-k2:free"
+}

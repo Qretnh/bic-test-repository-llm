@@ -11,8 +11,6 @@ from core.config import settings
 from core.logging import logger
 
 
-
-
 def calculate_statistics(results: List[Dict[str, Any]]) -> Dict[str, Any]:
     """Вычисляет статистику по результатам"""
     successful_runs = [r for r in results if r["success"]]
@@ -56,10 +54,8 @@ def save_benchmark_results(results: List[Dict[str, Any]]):
         writer.writerows(results)
 
 
-
-
 async def run_parallel_benchmark(
-    prompts: List[str], model: str, runs: int, max_parallel_requests: int = 10
+    prompts: List[str], model: str, runs: int, max_parallel_requests: int = 6
 ) -> List[Dict[str, Any]]:
     """Запускает все тесты параллельно"""
     tasks = []
@@ -114,7 +110,7 @@ async def run_single_test(prompt: str, model: str, run_num: int) -> Dict[str, An
                         "timestamp": datetime.now().isoformat(),
                     }
                 else:
-                    logger.error("Error in API request: ", response.json())
+                    logger.error("Error in API request: ", response)
                     return {
                         "prompt": prompt,
                         "run": run_num,

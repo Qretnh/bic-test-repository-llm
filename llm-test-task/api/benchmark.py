@@ -1,9 +1,8 @@
-
 from fastapi import APIRouter, Depends, File, HTTPException, UploadFile
 
 from core.logging import logger
 from services.benchmark import (calculate_statistics, chunks,
-                                save_benchmark_results, run_parallel_benchmark)
+                                run_parallel_benchmark, save_benchmark_results)
 from services.openrouter import OpenRouterManager, get_models_manager
 
 router = APIRouter()

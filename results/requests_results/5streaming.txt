@@ -1,0 +1,478 @@
+Testing stream endpoint...
+URL: http://127.0.0.1:8000/generate?stream=true
+Payload: {"prompt": "Дай пошаговое решение 1+1, стримом", "model": "moonshotai/kimi-k2:free", "max_tokens": 150}
+Status Code: 200
+Headers: {'date': 'Tue, 09 Sep 2025 11:14:48 GMT', 'server': 'uvicorn', 'cache-control': 'no-cache', 'connection': 'keep-alive', 'content-type': 'text/event-stream; charset=utf-8', 'transfer-encoding': 'chunked'}
+Stream started. Reading lines...
+RAW: data: {"content": "\n"}
+JSON: {'content': '\n'}
+CONTENT:
+
+RAW: data: {"content": "В"}
+JSON: {'content': 'В'}
+CONTENT: В
+RAW: data: {"content": "от"}
+JSON: {'content': 'от'}
+CONTENT: от
+RAW: data: {"content": " по"}
+JSON: {'content': ' по'}
+CONTENT:  по
+RAW: data: {"content": "ш"}
+JSON: {'content': 'ш'}
+CONTENT: ш
+RAW: data: {"content": "аг"}
+JSON: {'content': 'аг'}
+CONTENT: аг
+RAW: data: {"content": "ов"}
+JSON: {'content': 'ов'}
+CONTENT: ов
+RAW: data: {"content": "ое"}
+JSON: {'content': 'ое'}
+CONTENT: ое
+RAW: data: {"content": " реш"}
+JSON: {'content': ' реш'}
+CONTENT:  реш
+RAW: data: {"content": "ение"}
+JSON: {'content': 'ение'}
+CONTENT: ение
+RAW: data: {"content": " вы"}
+JSON: {'content': ' вы'}
+CONTENT:  вы
+RAW: data: {"content": "раж"}
+JSON: {'content': 'раж'}
+CONTENT: раж
+RAW: data: {"content": "ения"}
+JSON: {'content': 'ения'}
+CONTENT: ения
+RAW: data: {"content": " "}
+JSON: {'content': ' '}
+CONTENT:
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": " +"}
+JSON: {'content': ' +'}
+CONTENT:  +
+RAW: data: {"content": " "}
+JSON: {'content': ' '}
+CONTENT:
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": " в"}
+JSON: {'content': ' в'}
+CONTENT:  в
+RAW: data: {"content": " фор"}
+JSON: {'content': ' фор'}
+CONTENT:  фор
+RAW: data: {"content": "мат"}
+JSON: {'content': 'мат'}
+CONTENT: мат
+RAW: data: {"content": "е"}
+JSON: {'content': 'е'}
+CONTENT: е
+RAW: data: {"content": " ст"}
+JSON: {'content': ' ст'}
+CONTENT:  ст
+RAW: data: {"content": "рим"}
+JSON: {'content': 'рим'}
+CONTENT: рим
+RAW: data: {"content": "-п"}
+JSON: {'content': '-п'}
+CONTENT: -п
+RAW: data: {"content": "од"}
+JSON: {'content': 'од'}
+CONTENT: од
+RAW: data: {"content": "об"}
+JSON: {'content': 'об'}
+CONTENT: об
+RAW: data: {"content": "ного"}
+JSON: {'content': 'ного'}
+CONTENT: ного
+RAW: data: {"content": " пот"}
+JSON: {'content': ' пот'}
+CONTENT:  пот
+RAW: data: {"content": "ок"}
+JSON: {'content': 'ок'}
+CONTENT: ок
+RAW: data: {"content": "а"}
+JSON: {'content': 'а'}
+CONTENT: а
+RAW: data: {"content": " м"}
+JSON: {'content': ' м'}
+CONTENT:  м
+RAW: data: {"content": "ыс"}
+JSON: {'content': 'ыс'}
+CONTENT: ыс
+RAW: data: {"content": "л"}
+JSON: {'content': 'л'}
+CONTENT: л
+RAW: data: {"content": "ей"}
+JSON: {'content': 'ей'}
+CONTENT: ей
+RAW: data: {"content": ":\n\n"}
+JSON: {'content': ':\n\n'}
+CONTENT: :
+
+
+RAW: data: {"content": "---\n\n"}
+JSON: {'content': '---\n\n'}
+CONTENT: ---
+
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "Ш"}
+JSON: {'content': 'Ш'}
+CONTENT: Ш
+RAW: data: {"content": "аг"}
+JSON: {'content': 'аг'}
+CONTENT: аг
+RAW: data: {"content": " "}
+JSON: {'content': ' '}
+CONTENT:
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "О"}
+JSON: {'content': 'О'}
+CONTENT: О
+RAW: data: {"content": "п"}
+JSON: {'content': 'п'}
+CONTENT: п
+RAW: data: {"content": "ера"}
+JSON: {'content': 'ера'}
+CONTENT: ера
+RAW: data: {"content": "ция"}
+JSON: {'content': 'ция'}
+CONTENT: ция
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " Н"}
+JSON: {'content': ' Н'}
+CONTENT:  Н
+RAW: data: {"content": "ач"}
+JSON: {'content': 'ач'}
+CONTENT: ач
+RAW: data: {"content": "ало"}
+JSON: {'content': 'ало'}
+CONTENT: ало
+RAW: data: {"content": " вы"}
+JSON: {'content': ' вы'}
+CONTENT:  вы
+RAW: data: {"content": "ч"}
+JSON: {'content': 'ч'}
+CONTENT: ч
+RAW: data: {"content": "ис"}
+JSON: {'content': 'ис'}
+CONTENT: ис
+RAW: data: {"content": "ления"}
+JSON: {'content': 'ления'}
+CONTENT: ления
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "Вы"}
+JSON: {'content': 'Вы'}
+CONTENT: Вы
+RAW: data: {"content": "раж"}
+JSON: {'content': 'раж'}
+CONTENT: раж
+RAW: data: {"content": "ение"}
+JSON: {'content': 'ение'}
+CONTENT: ение
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " `"}
+JSON: {'content': ' `'}
+CONTENT:  `
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": " +"}
+JSON: {'content': ' +'}
+CONTENT:  +
+RAW: data: {"content": " "}
+JSON: {'content': ' '}
+CONTENT:
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": "`"}
+JSON: {'content': '`'}
+CONTENT: `
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "С"}
+JSON: {'content': 'С'}
+CONTENT: С
+RAW: data: {"content": "ост"}
+JSON: {'content': 'ост'}
+CONTENT: ост
+RAW: data: {"content": "оян"}
+JSON: {'content': 'оян'}
+CONTENT: оян
+RAW: data: {"content": "ие"}
+JSON: {'content': 'ие'}
+CONTENT: ие
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " Г"}
+JSON: {'content': ' Г'}
+CONTENT:  Г
+RAW: data: {"content": "от"}
+JSON: {'content': 'от'}
+CONTENT: от
+RAW: data: {"content": "ово"}
+JSON: {'content': 'ово'}
+CONTENT: ово
+RAW: data: {"content": " к"}
+JSON: {'content': ' к'}
+CONTENT:  к
+RAW: data: {"content": " сл"}
+JSON: {'content': ' сл'}
+CONTENT:  сл
+RAW: data: {"content": "ож"}
+JSON: {'content': 'ож'}
+CONTENT: ож
+RAW: data: {"content": "ен"}
+JSON: {'content': 'ен'}
+CONTENT: ен
+RAW: data: {"content": "ию"}
+JSON: {'content': 'ию'}
+CONTENT: ию
+RAW: data: {"content": "\n\n"}
+JSON: {'content': '\n\n'}
+CONTENT:
+
+
+RAW: data: {"content": "---\n\n"}
+JSON: {'content': '---\n\n'}
+CONTENT: ---
+
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "Ш"}
+JSON: {'content': 'Ш'}
+CONTENT: Ш
+RAW: data: {"content": "аг"}
+JSON: {'content': 'аг'}
+CONTENT: аг
+RAW: data: {"content": " "}
+JSON: {'content': ' '}
+CONTENT:
+RAW: data: {"content": "2"}
+JSON: {'content': '2'}
+CONTENT: 2
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "О"}
+JSON: {'content': 'О'}
+CONTENT: О
+RAW: data: {"content": "п"}
+JSON: {'content': 'п'}
+CONTENT: п
+RAW: data: {"content": "ера"}
+JSON: {'content': 'ера'}
+CONTENT: ера
+RAW: data: {"content": "ция"}
+JSON: {'content': 'ция'}
+CONTENT: ция
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " И"}
+JSON: {'content': ' И'}
+CONTENT:  И
+RAW: data: {"content": "д"}
+JSON: {'content': 'д'}
+CONTENT: д
+RAW: data: {"content": "ент"}
+JSON: {'content': 'ент'}
+CONTENT: ент
+RAW: data: {"content": "иф"}
+JSON: {'content': 'иф'}
+CONTENT: иф
+RAW: data: {"content": "ика"}
+JSON: {'content': 'ика'}
+CONTENT: ика
+RAW: data: {"content": "ция"}
+JSON: {'content': 'ция'}
+CONTENT: ция
+RAW: data: {"content": " оп"}
+JSON: {'content': ' оп'}
+CONTENT:  оп
+RAW: data: {"content": "ер"}
+JSON: {'content': 'ер'}
+CONTENT: ер
+RAW: data: {"content": "анд"}
+JSON: {'content': 'анд'}
+CONTENT: анд
+RAW: data: {"content": "ов"}
+JSON: {'content': 'ов'}
+CONTENT: ов
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "Л"}
+JSON: {'content': 'Л'}
+CONTENT: Л
+RAW: data: {"content": "ев"}
+JSON: {'content': 'ев'}
+CONTENT: ев
+RAW: data: {"content": "ый"}
+JSON: {'content': 'ый'}
+CONTENT: ый
+RAW: data: {"content": " оп"}
+JSON: {'content': ' оп'}
+CONTENT:  оп
+RAW: data: {"content": "ер"}
+JSON: {'content': 'ер'}
+CONTENT: ер
+RAW: data: {"content": "анд"}
+JSON: {'content': 'анд'}
+CONTENT: анд
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " `"}
+JSON: {'content': ' `'}
+CONTENT:  `
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": "`"}
+JSON: {'content': '`'}
+CONTENT: `
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "П"}
+JSON: {'content': 'П'}
+CONTENT: П
+RAW: data: {"content": "рав"}
+JSON: {'content': 'рав'}
+CONTENT: рав
+RAW: data: {"content": "ый"}
+JSON: {'content': 'ый'}
+CONTENT: ый
+RAW: data: {"content": " оп"}
+JSON: {'content': ' оп'}
+CONTENT:  оп
+RAW: data: {"content": "ер"}
+JSON: {'content': 'ер'}
+CONTENT: ер
+RAW: data: {"content": "анд"}
+JSON: {'content': 'анд'}
+CONTENT: анд
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " `"}
+JSON: {'content': ' `'}
+CONTENT:  `
+RAW: data: {"content": "1"}
+JSON: {'content': '1'}
+CONTENT: 1
+RAW: data: {"content": "`"}
+JSON: {'content': '`'}
+CONTENT: `
+RAW: data: {"content": "  \n"}
+JSON: {'content': '  \n'}
+CONTENT:
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+RAW: data: {"content": "С"}
+JSON: {'content': 'С'}
+CONTENT: С
+RAW: data: {"content": "ост"}
+JSON: {'content': 'ост'}
+CONTENT: ост
+RAW: data: {"content": "оян"}
+JSON: {'content': 'оян'}
+CONTENT: оян
+RAW: data: {"content": "ие"}
+JSON: {'content': 'ие'}
+CONTENT: ие
+RAW: data: {"content": ":**"}
+JSON: {'content': ':**'}
+CONTENT: :**
+RAW: data: {"content": " О"}
+JSON: {'content': ' О'}
+CONTENT:  О
+RAW: data: {"content": "пер"}
+JSON: {'content': 'пер'}
+CONTENT: пер
+RAW: data: {"content": "анды"}
+JSON: {'content': 'анды'}
+CONTENT: анды
+RAW: data: {"content": " расп"}
+JSON: {'content': ' расп'}
+CONTENT:  расп
+RAW: data: {"content": "оз"}
+JSON: {'content': 'оз'}
+CONTENT: оз
+RAW: data: {"content": "н"}
+JSON: {'content': 'н'}
+CONTENT: н
+RAW: data: {"content": "аны"}
+JSON: {'content': 'аны'}
+CONTENT: аны
+RAW: data: {"content": "\n\n"}
+JSON: {'content': '\n\n'}
+CONTENT:
+
+
+RAW: data: {"content": "---\n\n"}
+JSON: {'content': '---\n\n'}
+CONTENT: ---
+
+
+RAW: data: {"content": "**"}
+JSON: {'content': '**'}
+CONTENT: **
+
+Process finished with exit code 0

@@ -5,5 +5,6 @@
     "min": 1.4717447757720947,
     "max": 27.805270433425903,
     "std_dev_": 8.705206091265158,
-    "total_tokens": 7246
+    "total_tokens": 7246,
+    "model": "deepseek/deepseek-chat-v3.1:free"
 }

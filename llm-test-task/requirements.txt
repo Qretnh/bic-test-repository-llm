@@ -10,3 +10,6 @@ uvicorn~=0.34.2
 flake8
 black
 isort
+statistics
+aiohttp
+starlette
