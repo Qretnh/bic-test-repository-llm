@@ -1,0 +1,7 @@
+2025-09-08 22:16:56,049 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-08 22:17:39,062 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-08 22:23:49,908 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-08 23:08:52,288 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-09 09:53:24,848 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-09 10:03:41,574 - openrouter_app - ERROR - Unexpected error: 'choices'
+2025-09-09 10:21:35,588 - openrouter_app - ERROR - Unexpected error: 'choices'
